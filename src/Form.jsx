@@ -50,7 +50,8 @@ export const Form = () => {
         {...register("confirmPassword")}
       />
       <p>{errors.confirmPassword?.message}</p>
-      <input type="submit" />
+      {/* <input type="submit" /> */}
+      <button type="submit">Submit</button>
     </form>
   );
 };
